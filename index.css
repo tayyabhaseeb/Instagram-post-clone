@@ -1,0 +1,132 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+/* header {
+  background-color: pink;
+} */
+
+.container {
+  width: 375px;
+  /* background-color: aqua; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  background-color: white;
+  margin-top: 40px;
+}
+
+.head-img-1 {
+  margin-top: 17px;
+  margin-bottom: 17px;
+  margin-left: 16px;
+}
+
+.head-img-2 {
+  margin-right: 16px;
+  border-radius: 50%;
+}
+
+/* section 1 */
+
+.section-1-container {
+  width: 375px;
+  margin: 0 auto;
+  /* background-color: chartreuse; */
+  display: flex;
+  background-color: white;
+}
+
+.section-1-img {
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.info-container h5 {
+  font-size: 10px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.info-container p {
+  font-size: 10px;
+  margin-top: 0;
+}
+
+/* section 1 container 2 */
+
+.section-1-container2 {
+  width: 375px;
+  margin: 0 auto;
+  /* background-color: chartreuse; */
+  background-color: white;
+}
+
+.section-1-container2 img {
+  width: 100%;
+  height: 375px;
+}
+
+/* .section-1-container2:hover,
+.section-1-container2:focus {
+  background: red;
+} */
+
+/* footer */
+
+.footer-container {
+  width: 366.5px;
+  margin: 0 auto;
+  /* background-color: yellow; */
+  padding-top: 21px;
+  padding-left: 10px;
+  padding-bottom: 11px;
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+.footer-container img {
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+.footer-container h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-container p {
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.footer-logo-container img:hover,
+.footer-logo-container img:active,
+.footer-logo-container img:focus {
+  /* filter: invert(16%) sepia(87%) saturate(6719%) hue-rotate(358deg)
+    brightness(102%) contrast(112%); */
+  filter: invert(25%) sepia(81%) saturate(7337%) hue-rotate(356deg)
+    brightness(96%) contrast(118%);
+  width: 25px;
+  height: 25px;
+}
